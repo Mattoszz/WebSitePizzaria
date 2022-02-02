@@ -9,3 +9,100 @@ Vermelho mais escuro: #D90404
 Cinza escuro: #404040
 Cinza bem claro: #F7F7F7
 */
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../_imagens/secao08-background-capa.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    border-top: 2px solid #065902;
+
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 95%;
+    height: 200px;
+    margin: 10 auto;
+}
+
+nav div#logo{
+    float: left;
+    background-image: url(../_imagens/secao08-logo-pizzaria-fontenelle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+nav ul#esquerda{
+    float: left;
+}
+
+nav ul#direita{
+    float: right;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin-top: 70px;
+    height: 40px;
+}
+
+nav ul li{
+    list-style: none;   
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 100px;
+
+    font-size: 80%;
+}
+
+nav ul li a.criar-conta{
+    border: 1px solid #FFF;
+    padding: 9px 29px;
+}
+
+nav li a:hover{
+    background-color: #F2B705;
+    transition-duration: 0.8s;
+}
+
+nav ion-icon#icone-user{
+    width: 45px;
+    height: 45px;
+
+    color: white;
+    margin-top: -13px;
+    margin-left: 20px;
+}
+
+nav ion-icon#icone-user:hover{
+    background-color: #F2B705;
+    cursor: pointer;
+}
+
+header div#chamada{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
