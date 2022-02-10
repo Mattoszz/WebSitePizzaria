@@ -122,3 +122,11 @@ section#pizza ul li, section#pizza-pagina ul li{
 
     text-transform: uppercase;
 }
+
+/*----------------------------*/
+/*  SEÇÃO - DEPOIMENTOS       */
+/*----------------------------*/
+
+section#testemunha p.destaque{
+    width: 40%;
+}
