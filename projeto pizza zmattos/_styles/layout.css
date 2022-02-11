@@ -1,4 +1,15 @@
 /*
+div#teste{
+    background-color: aquamarine;
+    position: fixed;
+    top: 0; left: 0;
+    width: 300px;
+    height: 60px;
+    z-index: 10;
+    color: #000;
+}
+
+
 CORES
 Verde escuro: #065902
 Verde mais claro: #078C31
@@ -290,6 +301,7 @@ section#testemunha{
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 div#testemunha-mestre{
@@ -371,3 +383,4 @@ section#testemunha div#testemunha-centro div#testemunhos ul img{
     margin-bottom: 20px;
     border: 5px solid #F03733;
 }
+
