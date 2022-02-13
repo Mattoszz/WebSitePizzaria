@@ -50,3 +50,20 @@ $('div#testemunha-esquerda').click( function() {
     $('div#testemunha-direita ion-icon').css('cursor','pointer');      
 })
 
+//------------------------------------------
+//testando botão de click para assinar
+
+$('div#planos-bottom-ouro').click(function(){
+    alert('Você escolheu o plano Ouro');
+})
+
+$('div#planos-bottom-platinium').click(function(){
+    alert('Você escolheu o plano Platinium');
+})
+
+$('div#planos-bottom-black').click(function(){
+    alert('Você escolheu o plano Black');
+})
+
+//---------------------------------------------
+
