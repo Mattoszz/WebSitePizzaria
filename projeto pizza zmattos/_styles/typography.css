@@ -178,3 +178,17 @@ section#plano-principal div.planos-bottom p{
     text-align: center;
     padding: 35px;
 }
+
+/*----------------------------*/
+/*        FOOTER              */
+/*----------------------------*/
+
+footer div#info ul{
+    margin-bottom: 130px;
+}
+
+footer div#info ul li{
+    list-style: none;
+    color: #FFF;
+    margin-bottom: 5px;
+}

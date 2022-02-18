@@ -67,3 +67,13 @@ $('div#planos-bottom-black').click(function(){
 
 //---------------------------------------------
 
+// CODIGOS PARA LINKS DAS REDES SOCIAIS
+
+$("ion-icon#facebook").click(function(){
+    window.open("http://www.facebook.com", "_blank");  
+})
+
+$("ion-icon#instagram").click(function(){
+    window.open("http://www.instagram.com", "_blank");  
+})
+
