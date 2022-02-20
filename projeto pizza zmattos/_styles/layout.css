@@ -144,6 +144,8 @@ div.folha1{
     height: 150px;
     background-image: url(../_imagens/secao09-folha1.png);
     background-repeat: no-repeat;
+    
+    opacity: 0;
 }
 
 div.camarao{
@@ -154,6 +156,8 @@ div.camarao{
     height: 150px;
     background-image: url(../_imagens/secao09-camarao.jpg);
     background-repeat: no-repeat;
+
+    opacity: 0;
 }
 
 div.folha2{
@@ -164,6 +168,8 @@ div.folha2{
     height: 150px;
     background-image: url(../_imagens/secao09-folha2.png);
     background-repeat: no-repeat;
+
+    opacity: 0;
 }
 
 div.folha3{
@@ -173,6 +179,8 @@ div.folha3{
     width: 150px;
     height: 150px;
     background: url(../_imagens/secao09-folha3.png) no-repeat;
+
+    opacity: 0;
 }
 
 div.tomate{
@@ -182,6 +190,8 @@ div.tomate{
     width: 150px;
     height: 150px;
     background: url(../_imagens/secao09-tomate.png) no-repeat;
+
+    opacity: 0;
 }
 
 div.queijo{
@@ -191,6 +201,8 @@ div.queijo{
     width: 150px;
     height: 150px;
     background: url(../_imagens/secao09-queijo.jpg) no-repeat;
+
+    opacity: 0;
 }
 
 div#domingo-perfeito-centro{
@@ -285,6 +297,8 @@ div.pizza-opcoes{
     text-align: center;
 
     margin: 5px 0;
+
+    opacity: 0;
 }
 
 /*----------------------------*/
@@ -402,6 +416,8 @@ div#transicao-testemunha-plano div#decoracao1{
     padding-left: 30px;
     background: url(../_imagens/secao13-tomate-manjericao-alho.jpg) no-repeat;
     background-position: top center;
+
+    opacity: 0;
 }
 
 div#transicao-testemunha-plano div#decoracao2{
@@ -410,6 +426,8 @@ div#transicao-testemunha-plano div#decoracao2{
 
     background: url(../_imagens/secao13-azeite.jpg) no-repeat;
     background-position: top center;
+
+    opacity: 0;
 }
 
 div#transicao-testemunha-plano div#decoracao3{
@@ -418,6 +436,8 @@ div#transicao-testemunha-plano div#decoracao3{
 
     background: url(../_imagens/secao13-detalhe-tomate.jpg) no-repeat;
     background-position: bottom right;
+
+    opacity: 0;
 }
 
 /*----------------------------*/
@@ -498,6 +518,8 @@ footer div#mapa{
     background-color: #FFF;
 
     box-shadow: 0 3px 10px #404040;
+
+    opacity: 0;
 }
 
 footer div#info{
@@ -506,6 +528,8 @@ footer div#info{
     background-color: #F03733;
     box-shadow: 0 3px 10px #404040;
     padding-left: 15px;
+
+    opacity: 0;
 }
 
 footer div#redes-sociais{
@@ -535,4 +559,5 @@ footer div#pizza-rodape-decoracao{
     background-image: url(../_imagens/secao15-pizza-rodape.png);
     background-repeat: no-repeat;
 
+    opacity: 0;
 }

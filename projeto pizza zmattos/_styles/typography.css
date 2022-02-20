@@ -131,6 +131,8 @@ div.pontos-chaves h4::after{
 section#pizza p.destaque, section#pizza-pagina p.destaque{
     color: #FFF;
     width: 40%;
+
+    opacity: 0;
 }
 
 section#pizza ul li, section#pizza-pagina ul li{
