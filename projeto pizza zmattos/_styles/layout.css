@@ -39,6 +39,8 @@ header#header-index{
     box-sizing: border-box;
 }
 
+/*  NAVE  */
+
 nav{
     width: 95%;
     height: 150px;
@@ -83,7 +85,7 @@ nav ul{
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .menuEstatico{
@@ -92,6 +94,11 @@ nav ul{
 
 nav ul#esquerda{
     float: left;
+}
+
+nav ul#icon-menu-mobile{
+    float: right;
+    display: none;
 }
 
 nav ul#direita{
@@ -115,7 +122,6 @@ nav ul li a{
     color: #404040;
     border-radius: 0;
     padding: 19px 30px;
-
 }
 
 nav ul li a.criar-conta{
@@ -558,6 +564,11 @@ footer div#mapa{
     box-shadow: 0 3px 10px #404040;
 
     opacity: 0;
+}
+
+footer div#mapa iframe{
+    width: 100%;
+    height: 100%;
 }
 
 footer div#info{

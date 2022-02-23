@@ -55,8 +55,8 @@ div#pizza-opcoes-mestre{
 /*  SEÇÃO - DEPOIMENTOS */
 
 div#testemunha-centro{
-    width: 58%;
-    margin-left: 22%;
+    width: 60%;
+    margin-left: 25%;
 }
 
 div#testemunha-esquerda, div#testemunha-direita{
@@ -65,16 +65,13 @@ div#testemunha-esquerda, div#testemunha-direita{
 
 @media screen and (max-width: 980px) {
     div#testemunha-centro{
-        width: 54%;
-        margin-left: 24%;
-        
+        width: 65%;            
     }
-    div#testemunhos{
-        position: relative;
-    }    
 
     section#testemunha div#testemunha-centro div#testemunhos ul{
-        width: 250px;
+        background-color: aquamarine;
+        width: 300px;
+        height: 100%;
         margin: 50px 5px;
     }
 }
@@ -93,12 +90,6 @@ div#planos-janela{
 
 div.planos{
     margin: 80px 5px;
-}
-
-@media screen and (max-width: 940px) {
-    div.planos{
-        width: 220px;
-    }
 }
 
 /*   FOOTER  */

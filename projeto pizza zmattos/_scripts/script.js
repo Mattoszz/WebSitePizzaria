@@ -210,12 +210,18 @@ $('header h1').waypoint(function(direcao){
         $('nav ul').addClass('menuEstatico');
         $('nav ul li a').addClass('itemEstatico');
         $('nav ion-icon').addClass('iconeEstatico');
+        $('nav ul#icon-menu-mobile ion-icon').css('color', '#404040');
+        $('nav ul#icon-menu-mobile').css('margin-top', '5px');
+        $('nav ul#icon-menu-mobile').css('margin-right', '20px');
     }else{
         $('nav').removeClass('navEstatico');
         $('nav div').removeClass('logoEstatico');
         $('nav ul').removeClass('menuEstatico');
         $('nav ul li a').removeClass('itemEstatico');
         $('nav ion-icon').removeClass('iconeEstatico');
+        $('nav ul#icon-menu-mobile ion-icon').css('color', 'white');
+        $('nav ul#icon-menu-mobile').css('margin-top', '70px');
+        $('nav ul#icon-menu-mobile').css('margin-right', '20px');
     }
 }, {
     offset:'100px;'
@@ -227,16 +233,69 @@ $('nav div').click(function(){
 })
 
 $('nav ul li:eq(0)').click(function(){
-    $('html, body').animate({scrollTop:$('section.domingo-perfeito').offset().top}, 1000)
+    $('html, body').animate({scrollTop:$('section.domingo-perfeito').offset().top}, 1000, function(){
+       if($(window).width() < 812){
+        esconderMenu();
+        controle = true;
+       }
+    })
 })
 
 $('nav ul li:eq(1)').click(function(){
-    $('html, body').animate({scrollTop:$('section#pizza').offset().top}, 1000)
+    $('html, body').animate({scrollTop:$('section#pizza').offset().top}, 1000, function(){
+        if($(window).width() < 812){
+         esconderMenu();
+         controle = true;
+        }
+     })
 })
 $('nav ul li:eq(2)').click(function(){
-    $('html, body').animate({scrollTop:$('section#testemunha').offset().top}, 1000)
+    $('html, body').animate({scrollTop:$('section#testemunha').offset().top}, 1000, function(){
+        if($(window).width() < 812){
+         esconderMenu();
+         controle = true;
+        }
+     })
 })
 
 $('nav ul li:eq(3)').click(function(){
-    $('html, body').animate({scrollTop:$('section#plano-principal').offset().top}, 1000)
+    $('html, body').animate({scrollTop:$('section#plano-principal').offset().top}, 1000, function(){
+        if($(window).width() < 812){
+         esconderMenu();
+         controle = true;
+        }
+     })
+})
+
+
+// açoes de menu amburguer
+
+function mostrarMenu(){
+    $('nav ul#esquerda').css('display', 'flex');
+    $('nav ul#direita').css('display', 'flex');
+}
+
+function esconderMenu(){
+    $('nav ul#esquerda').css('display', 'none');
+    $('nav ul#direita').css('display', 'none');
+}
+
+var controle = true;
+
+$('nav ul#icon-menu-mobile').click(function(){
+    if(controle == true){
+        mostrarMenu();
+        controle = false;
+    }else{
+        esconderMenu();
+        controle = true;
+    }
+})
+
+$(window).resize(function(){
+    if($(window).width() > 812){
+        mostrarMenu();
+    }else{
+        esconderMenu();
+    }
 })

@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="_styles/layout.css" />
     <link rel="stylesheet" href="_styles/typography.css" />
     <link rel="stylesheet" href="_styles/layout-tablet.css" media="screen and (max-width:1024px)">
+    <link rel="stylesheet" href="_styles/layout-moble.css" media="screen and (max-width:812px)">
   </head>
   <body>
     <div id="teste"></div>
@@ -30,9 +31,12 @@
         <li><a href="#">DEPOIMENTOS</a></li>
         <li><a href="#">PLANOS</a></li>
       </ul>
+      <ul id="icon-menu-mobile">
+        <li><ion-icon name="menu-outline"></ion-icon></li>
+      </ul>
       <ul id="direita">
         <li><a class="criar-conta" href="#">CRIAR CONTA</a></li>
-        <ion-icon name="person-circle-outline"></ion-icon>
+        <li><ion-icon name="person-circle-outline"></ion-icon></li>
       </ul>
     </nav>
 
@@ -183,7 +187,7 @@
         <div id="testemunha-centro">
           <div id="testemunhos">
             <ul>
-              <li><img src="/_imagens/secao11-depoimento-1.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-1.jpg" /></li>
               <li>
                 <h5>Julia</h5>
                 <p>
@@ -193,7 +197,7 @@
               </li>
             </ul>
             <ul>
-              <li><img src="_imagens/secao11-depoimento-2.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-2.jpg" /></li>
               <li>
                 <h5>Daniel</h5>
                 <p>
@@ -203,7 +207,7 @@
               </li>
             </ul>
             <ul>
-              <li><img src="_imagens/secao11-depoimento-3.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-3.jpg" /></li>
               <li>
                 <h5>Cris</h5>
                 <p>
@@ -213,7 +217,7 @@
               </li>
             </ul>
             <ul>
-              <li><img src="_imagens/secao11-depoimento-4.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-4.jpg" /></li>
               <li>
                 <h5>Fernando</h5>
                 <p>
@@ -223,7 +227,7 @@
               </li>
             </ul>
             <ul>
-              <li><img src="_imagens/secao11-depoimento-2.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-2.jpg" /></li>
               <li>
                 <h5>Henrique</h5>
                 <p>
@@ -233,7 +237,7 @@
               </li>
             </ul>
             <ul>
-              <li><img src="_imagens/secao11-depoimento-1.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-1.jpg" /></li>
               <li>
                 <h5>Marilia</h5>
                 <p>
@@ -243,7 +247,7 @@
               </li>
             </ul>
             <ul>
-              <li><img src="_imagens/secao11-depoimento-2.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-2.jpg" /></li>
               <li>
                 <h5>Filipe</h5>
                 <p>
@@ -253,7 +257,7 @@
               </li>
             </ul>
             <ul>
-              <li><img src="_imagens/secao11-depoimento-3.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-3.jpg" /></li>
               <li>
                 <h5>Rafaela</h5>
                 <p>
@@ -263,7 +267,7 @@
               </li>
             </ul>
             <ul>
-              <li><img src="_imagens/secao11-depoimento-1.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-1.jpg" /></li>
               <li>
                 <h5>Marcela</h5>
                 <p>
@@ -273,7 +277,7 @@
               </li>
             </ul>
             <ul>
-              <li><img src="_imagens/secao11-depoimento-2.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-2.jpg" /></li>
               <li>
                 <h5>Victor</h5>
                 <p>
@@ -283,7 +287,7 @@
               </li>
             </ul>
             <ul>
-              <li><img src="_imagens/secao11-depoimento-3.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-3.jpg" /></li>
               <li>
                 <h5>Vanda</h5>
                 <p>
@@ -293,7 +297,7 @@
               </li>
             </ul>
             <ul>
-              <li><img src="_imagens/secao11-depoimento-4.jpg" /></li>
+              <li><img alt="foto de um cliente" src="_imagens/secao11-depoimento-4.jpg" /></li>
               <li>
                 <h5>André</h5>
                 <p>
@@ -328,8 +332,8 @@
               <li>Refrigerante 2L.</li>
               <li>Entrega grátis</li>
               <li>Vovê escolhe os dias e horários</li>
-              <p><strong>R$ 50,00</strong></p>
             </ul>
+            <p><strong>R$ 50,00</strong></p>
           </div>
           <div class="planos-bottom" id="planos-bottom-ouro">
             <p>QUERO ASSINAR</p>
@@ -376,9 +380,7 @@
     <footer>
       <div id="mapa">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.4325082930045!2d-48.44934548543245!3d-27.455791322683744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952743d7c72e6f95%3A0xf976704f3a056a88!2sServidao%20Bertolina%20de%20Oliveira%2C%20450%20-%20Vargem%20Grande%2C%20Florian%C3%B3polis%20-%20SC%2C%2088052-600!5e0!3m2!1spt-BR!2sbr!4v1645218356674!5m2!1spt-BR!2sbr"
-          width="100%"
-          height="100%"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.4325082930045!2d-48.44934548543245!3d-27.455791322683744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952743d7c72e6f95%3A0xf976704f3a056a88!2sServidao%20Bertolina%20de%20Oliveira%2C%20450%20-%20Vargem%20Grande%2C%20Florian%C3%B3polis%20-%20SC%2C%2088052-600!5e0!3m2!1spt-BR!2sbr!4v1645218356674!5m2!1spt-BR!2sbr"       
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
