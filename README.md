@@ -1,6 +1,6 @@
 # WebSitePizzaria
  
- Criei um website para uma pizzaria, o qual atende o cliente no formato dektop como no formato para dispositivos móveis.
+ Criei um website para uma pizzaria, o qual atende o cliente no formato desktop como no formato para dispositivos móveis.
  
  ### Qual a expectativa do projeto?
  Este website atende perfeitamente a uma pizzaria, com promoções, depoimentos, produtos e mais.
